@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  .covidp {
+    padding: 4px 0;
+    background-color: #233a95;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .all {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .middle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 5px;
+    border-bottom: 0.5px solid #bbbbbb;
+  }
+  
+  .headerinhrefleri {
+    font-size: 12px;
+    color: grey;
+  }
+  
+  .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 12px;
+  }
+  
+  .hand,
+  .callme,
+  .eng,
+  .usd {
+    padding: 4px 8px;
+    padding-right: 20px;
+    border-right: 0.5px solid #bbbbbb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .hand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .fa-hand {
+    padding-right: 8px;
+    font-size: 20px;
+  }
+  
+  /* bottom gelir */
+  .bottom {
+    padding: 20px 0;
+  }
+  
+  .bottom .bottom-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .bottom .bottom-top .logoimage {
+    width: 75%;
+  }
+  
+  .bottom .bottom-top .logospan {
+    font-size: 12px;
+    width: 100%;
+  }
+  
+  .bottom .bottom-top .logospankeeper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .bottom .bottom-top .locationkeeper {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+  }
+  
+  .bottom .bottom-top .locationkeeper .locations {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .bottom .bottom-top .locationkeeper .locations .left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px;
+  }
+  
+  .bottom .bottom-top .locationkeeper .locations .right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .bottom .bottom-top .inputkeeper {
+    padding: 10px;
+    background-color: #dbd9d9;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 5px;
+  }
+  
+  .bottom .bottom-top .inputkeeper .input1 {
+    width: 100%;
+    border: none;
+    background-color: #dbd9d9;
+    outline: none;
+    padding: 10px;
+  }
+  
+  .bottom .bottom-top .inputkeeper i {
+    width: 5%;
+    font-size: 20px;
+    color: #4d4b4b;
+  }
+  
+  .bottom .icons i {
+    font-size: 30px;
+    margin-left: 60px;
+  }
+  
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 0.5px solid white;
+    border-radius: 100px;
+    background-color: #2bbef9;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    width: 200px;
+  }
+  
+  .bottom .right a {
+    font-size: 15px;
+    padding-top: 20px;
+    background-color: transparent;
+    border-radius: 80px;
+    padding-left: 18px;
+  }
+  
+  .xett {
+    border-bottom: 1px solid #e3e4e6;
+  }
+
+
+
+
+
+
+
+
+
+  #contactinfo {
+    text-align: center;
+    padding: 40px 0 0 0;
+  }
+  
+  #contactinfo .citop {
+    padding: 15px;
+  }
+  
+  #contactinfo .citop h1 {
+    font-size: 40px;
+    color: #202435;
+  }
+  
+  #contactinfo .citop p {
+    font-size: 14px;
+    color: #202435;
+  }
+  
+  #contactinfo .cibottom i {
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
+    color: #233a95;
+  }
+  
+  #contactinfo .cibottom h5 {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #202435;
+  }
+  
+  #contactinfo .cibottom p {
+    color: #202435;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+  
+  #contactinfo .cibottom .location {
+    background-color: #F3F3F6;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  #contactinfo .cibottom .phone {
+    background-color: #F3F3F6;
+    padding: 40px;
+    border-radius: 10px;
+  }
+  
+  #contactinfo .cibottom .mail {
+    background-color: #F3F3F6;
+    padding: 40px;
+    border-radius: 10px;
+  }
+
+
+
+
+  #Sendus {
+    padding: 100px 0;
+  }
+  
+  #Sendus .inputbox {
+    padding: 80px 0;
+    border-radius: 10px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  #Sendus .inputbox .container-my {
+    margin: 0 230px;
+  }
+  
+  #Sendus .inputbox .container-my .head {
+    text-align: center;
+  }
+  
+  #Sendus .inputbox .container-my .main label {
+    width: 100%;
+    font-size: .8125rem;
+    margin: 10px 0;
+  }
+  
+  #Sendus .inputbox .container-my .main input {
+    width: 100%;
+    background-color: #f3f4f7;
+    color: #202435;
+    padding: 0 15px;
+    height: 2.5rem;
+    border: 1px solid transparent;
+    outline: none;
+    height: 2.875rem;
+    border-radius: 8px;
+  }
+  
+  #Sendus .inputbox .container-my .main .username {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+         justify-content: space-between;
+  }
+  
+  #Sendus .inputbox .container-my .main .username .name {
+    width: 48%;
+  }
+  
+  #Sendus .inputbox .container-my .main .username .email {
+    width: 48%;
+  }
+  
+  #Sendus .inputbox .container-my .main textarea {
+    height: 120px;
+    width: 100%;
+    border: none;
+    resize: none;
+    background-color: #f3f4f7;
+    color: #202435;
+    padding: 0 .9375rem;
+    border: 1px solid transparent;
+    outline: none;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+  }
+  
+  #Sendus .inputbox .container-my .main a {
+    text-decoration: none;
+    font-size: .8125rem;
+    padding: 1rem 2.25rem;
+    background-color: #233a95;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+  }
+  
+
+
+
+  footer{
+    color: white;
+    background-color: #233a95;
+  }
+  .footer{
+   justify-content: center;
+    margin-top: 200px;
+  }
+  .footer1{
+    margin-top: 11vh;
+  }
+  .subscribe1{
+    right: 55%;
+    padding: 7px;
+    border-radius: 10px;
+    position: absolute;
+    border: none;
+    margin-top: 9px;
+    background: blue;
+    color: white;
+  }
+  .Email{
+    width: 567px;
+  }
+  .Email1{
+    width: 567px;
+    margin: 0px;
+  }
+  .text5{
+    font-size: 14px;
+  }
+  .yourEmail{
+    background: white;
+    width: 100%;
+    height: 25%;
+    padding: 22px;
+  }
+  .discount1{
+    position: relative;
+    left: 60px;
+  }
+  .text8{
+    color: #C6C6D6;
+  }
